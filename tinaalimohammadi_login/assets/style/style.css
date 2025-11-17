@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'Peyda';
+  src: url('../font/peyda-regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Peyda';
+  src: url('../font/peyda-medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Peyda';
+  src: url('../font/peyda-semiBold.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Peyda';
+  src: url('../font/peyda-bold.ttf') format('truetype');
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Peyda';
+}
+
+body {
+  min-width: 1920px;      
+  min-height: 1080px; 
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  width: 1600px;
+  height: 900px;
+  display: flex;
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  direction: ltr;         
+}
+
+.login-left {
+  flex: 1;
+}
+
+.hope-image {
+  width: 1084px;
+  height: 1084px;
+  object-fit: cover;
+}
+
+.login-right {
+  flex: 1;
+  padding: 40px;
+  text-align: center;
+  position: relative;
+  direction: rtl;         
+}
+
+.logo-image {
+  width: 303px;
+  height: 242px;
+  margin: 0 auto 40px auto;
+}
+
+.quote-text {
+  width: 448px;
+  height: 40px;
+  font-size: 18px;
+  margin: 0 auto 50px auto;
+}
+
+.login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  width: 354px;
+  margin-bottom: 25px;
+}
+
+.form-label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  display: block;
+  text-align: right;
+}
+
+.form-input {
+  width: 354px;
+  height: 48px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.submit-btn {
+  width: 354px;
+  height: 48px;
+  margin-top: 30px;
+  font-size: 16px;
+  background: #2e5d7f;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
